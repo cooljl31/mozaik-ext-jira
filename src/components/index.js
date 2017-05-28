@@ -1,5 +1,5 @@
 import IssuesDonut                from './IssuesDonut.jsx';
-import SprintHealth               from './SprintHealt.jsx';
+import SprintHealth               from './SprintHealth.jsx';
 
 export default {
     IssuesDonut:  IssuesDonut,
