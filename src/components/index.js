@@ -1,5 +1,5 @@
-import IssuesDonut                from './IssuesDonut.jsx;
+import IssuesDonut                from './IssuesDonut.jsx';
 
-exports default {
+export default {
     IssuesDonut:  IssuesDonut
 };
