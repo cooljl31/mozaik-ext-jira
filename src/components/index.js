@@ -1,7 +1,7 @@
-import IssuesDonut                from './IssuesDonut.jsx';
-import SprintHealth               from './SprintHealth.jsx';
+import IssuesDonut from  './IssuesDonut.jsx'
+import SprintHealth from './SprintHealth.jsx'
 
-export default {
+export default = {
     IssuesDonut:  IssuesDonut,
-    SprintHealth:  SprintHealth
+    SprintHealth: SprintHealth
 };
