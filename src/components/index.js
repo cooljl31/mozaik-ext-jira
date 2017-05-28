@@ -1,3 +1,5 @@
-module.exports = {
-    IssuesDonut:  require('./IssuesDonut')
+import IssuesDonut                from './IssuesDonut.jsx;
+
+exports default {
+    IssuesDonut:  IssuesDonut
 };

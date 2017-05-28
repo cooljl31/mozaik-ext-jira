@@ -6,13 +6,13 @@ var config = convict({
             doc:    'The sonar API base url.',
             default: null,
             format: String,
-            env: 'JIRA_API_BASE_URL'
+            env: 'JIRA_BASE_URL'
         },
         basicAuth: {
             doc:    "Encoded auth creds",
             default: null,
             format: String,
-            env: 'JIRA_API_BASE_AUTH'
+            env: 'JIRA_BASIC_AUTH_TOKEN'
         }
     }
 });
