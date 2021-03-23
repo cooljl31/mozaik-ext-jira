@@ -19,7 +19,7 @@
   "main": "./src/components/index.js",
   "dependencies": {
     "chalk": "1.1.3",
-    "convict": "1.2.0",
+    "convict": "6.0.1",
     "lodash": "4.10.0",
     "moment": "^2.12.0",
     "moment-duration-format": "^1.3.0",
