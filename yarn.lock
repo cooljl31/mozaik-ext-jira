@@ -22,7 +22,7 @@ babel-code-frame@^6.22.0, babel-code-frame@^6.7.5:
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-babel-core@6.7.6, babel-core@^6.0.14:
+babel-core@6.7.6:
   version "6.7.6"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.7.6.tgz#36fe67e7aced8655ccf6c621fd6ffe9c01402dab"
   dependencies:
@@ -468,12 +468,10 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.7.2:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babelify@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/babelify/-/babelify-7.2.0.tgz#584249bc5066b61f984b3e745ed855203c9ec73e"
-  dependencies:
-    babel-core "^6.0.14"
-    object-assign "^4.0.0"
+babelify@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/babelify/-/babelify-8.0.0.tgz#6f60f5f062bfe7695754ef2403b842014a580ed3"
+  integrity sha512-xVr63fKEvMWUrrIbqlHYsMcc5Zdw4FSVesAHgkgajyCE1W8gbm9rbMakqavhxKvikGYMhEcqxTwB/gQmQ6lBtw==
 
 babylon@^6.11.0, babylon@^6.15.0, babylon@^6.7.0:
   version "6.17.1"
@@ -500,12 +498,6 @@ chalk@1.1.3, chalk@^1.1.0:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-cjson@0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/cjson/-/cjson-0.3.3.tgz#a92d9c786e5bf9b930806329ee05d5d3261b4afa"
-  dependencies:
-    json-parse-helpfulerror "^1.0.3"
-
 combined-stream@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.5.tgz#938370a57b4a51dea2c77c15d5c5fdf895164009"
@@ -524,15 +516,17 @@ convert-source-map@^1.1.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.5.0.tgz#9acd70851c6d5dfdd93d9282e5edf94a03ff46b5"
 
-convict@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/convict/-/convict-1.2.0.tgz#dab46be3eef097a0507b0be34707ca8b3f1d25bf"
+convict@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/convict/-/convict-1.4.0.tgz#5678f4a1d7ce54fe3c52394f5ff63bc229e952c3"
+  integrity sha512-UBkX5RXhy3dw5pnbiUdUe0LZiQ7aQOrTXs+/ikT0+zBkW/HNbkiSlisa3Kbc6VbZiqfhVBtd2UfbzU8dwwVGuw==
   dependencies:
-    cjson "0.3.3"
     depd "1.1.0"
+    json5 "0.5.0"
+    minimist "1.2.0"
     moment "2.12.0"
-    optimist "0.6.1"
     validator "4.6.1"
+  optionalDependencies:
     varify "0.1.1"
 
 cookiejar@2.0.6:
@@ -640,10 +634,6 @@ isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
-jju@^1.1.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/jju/-/jju-1.3.0.tgz#dadd9ef01924bc728b03f2f7979bdbd62f7a2aaa"
-
 js-tokens@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
@@ -656,11 +646,10 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
 
-json-parse-helpfulerror@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/json-parse-helpfulerror/-/json-parse-helpfulerror-1.0.3.tgz#13f14ce02eed4e981297b64eb9e3b932e2dd13dc"
-  dependencies:
-    jju "^1.1.0"
+json5@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.0.tgz#9b20715b026cbe3778fd769edccd822d8332a5b2"
+  integrity sha512-WDgahySBucTVnQuzQHoVh6BKKg3TFBUExSwYOPwA4it9xtspn3erHYkdEx1AXXkHN38L7O6v6lmqLiXh/GnxhA==
 
 json5@^0.4.0:
   version "0.4.0"
@@ -718,9 +707,14 @@ minimatch@^3.0.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@0.0.8, minimist@~0.0.1:
+minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+minimist@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+  integrity sha512-7Wl+Jz+IGWuSdgsQEJ4JunV0si/iMhg42MnQQG6h1R6TNeVenp4U9x5CC5v/gYqz/fENLQITAWXidNtVL0NNbw==
 
 mkdirp@^0.5.1:
   version "0.5.1"
@@ -748,16 +742,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-object-assign@^4.0.0, object-assign@^4.0.1:
+object-assign@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
-
-optimist@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
 
 os-homedir@^1.0.0:
   version "1.0.2"
@@ -948,7 +935,3 @@ varify@0.1.1:
   dependencies:
     redeyed "~0.4.2"
     through "~2.3.4"
-
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
