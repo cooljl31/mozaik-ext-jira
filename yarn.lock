@@ -22,7 +22,7 @@ babel-code-frame@^6.22.0, babel-code-frame@^6.7.5:
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
-babel-core@6.7.6, babel-core@^6.0.14:
+babel-core@6.7.6:
   version "6.7.6"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.7.6.tgz#36fe67e7aced8655ccf6c621fd6ffe9c01402dab"
   dependencies:
@@ -468,12 +468,10 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.7.2:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babelify@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/babelify/-/babelify-7.2.0.tgz#584249bc5066b61f984b3e745ed855203c9ec73e"
-  dependencies:
-    babel-core "^6.0.14"
-    object-assign "^4.0.0"
+babelify@8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/babelify/-/babelify-8.0.0.tgz#6f60f5f062bfe7695754ef2403b842014a580ed3"
+  integrity sha512-xVr63fKEvMWUrrIbqlHYsMcc5Zdw4FSVesAHgkgajyCE1W8gbm9rbMakqavhxKvikGYMhEcqxTwB/gQmQ6lBtw==
 
 babylon@^6.11.0, babylon@^6.15.0, babylon@^6.7.0:
   version "6.17.1"
@@ -748,7 +746,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-object-assign@^4.0.0, object-assign@^4.0.1:
+object-assign@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
